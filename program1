@@ -1,0 +1,10 @@
+print("enter a no to be checked")
+b=raw_input()
+if(int(b)>0):
+	print("number is positive")
+elif(int(b)==0):
+	print("number is 0")
+elif(int(b)<0):
+	print("number is negative")
+else:
+	print("invalid input")
